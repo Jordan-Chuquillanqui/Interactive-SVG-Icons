@@ -1,0 +1,99 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-container div {
+    width: 400px;
+}
+
+
+#large-can{
+    transform-origin: bottom center;
+}
+
+#large-can:hover {
+    animation: wiggle 1.5s ease-in-out;
+}
+@keyframes wiggle {
+    0% {transform: rotate(0deg); }
+    20% { transform: rotate(12deg); }
+    40% { transform: rotate(-12deg); }
+    60% { transform: rotate(3deg); }
+    80% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+#large-can:hover #fill {
+    opacity: 1;
+}
+
+#fill {
+    opacity: 1; 
+    fill: #a22f22; 
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 0.5s ease-in; 
+}
+
+#large-can:hover #fill {
+    clip-path: inset(0% 0 0 0);
+    transition: clip-path 1s ease-out;
+}
+
+
+#bubbles {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-in-out;
+}
+
+#small-can:hover #bubbles {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+#tab {
+    transform-origin: center;
+}
+
+#small-can:hover #tab {
+    transform: rotate(-35deg) translateY(-5px);
+}
+
+#body-nut-can {
+    transition: fill 0.3s ease;
+}
+
+#grey-can:hover #body-nut-can {
+    fill: #a22f22;
+}
+
+#logo {
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: fill 0.3s ease, transform 0.3s ease-out;
+}
+
+#grey-can:hover #logo {
+    transform: scale(1.1);
+}
+
+#logo-name path {
+    transition: fill 0.3s ease;
+}
+
+#grey-can:hover #logo-name path {
+    fill: #a22f22; 
+}

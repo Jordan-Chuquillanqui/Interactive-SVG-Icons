@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 380 380">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <g id="base-can">
+    <path id="bottom-can" d="M144.8,341.2h91.5c8.8,0,16,7.2,16,16h0c0,3.8-3.1,6.9-6.9,6.9h-109.7c-3.8,0-6.9-3.1-6.9-6.9h0c0-8.8,7.2-16,16-16Z"/>
+  </g>
+  <g id="mid-can-small">
+    <path id="body-can" d="M246.8,110.1h-113.5c-10.1,0-24.4,14.5-24.4,32.5v184c0,8.1,6.3,14.7,14,14.7h134.3c7.7,0,14-6.6,14-14.7v-184c0-17.9-16.3-32.5-24.4-32.5ZM263.5,208.9l-146.1,62.2v-72.1l146.1-62.4v72.3Z"/>
+  </g>
+  <g id="top-can-small">
+    <rect id="can-end" x="117.4" y="87.4" width="146.1" height="23.1" rx="11.6" ry="11.6"/>
+    <rect id="tab" x="206.5" y="55.4" width="13.2" height="52.8" rx="6.5" ry="6.5" transform="translate(120.2 -126.7) rotate(45)"/>
+  </g>
+  <g id="bubbles">
+    <circle id="small-bubble" cx="166.9" cy="64.3" r="5.6"/>
+    <circle id="medium-bubble" cx="190" cy="46.3" r="10.7"/>
+    <circle id="large-bubble" cx="163.1" cy="29.2" r="13.3"/>
+  </g>
+</svg>
