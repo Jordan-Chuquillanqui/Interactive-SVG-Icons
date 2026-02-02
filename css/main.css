@@ -19,7 +19,7 @@ body {
     width: 400px;
 }
 
-
+/* Icon #1 */
 #large-can{
     transform-origin: bottom center;
 }
@@ -35,7 +35,6 @@ body {
     80% { transform: rotate(-3deg); }
     100% { transform: rotate(0deg); }
 }
-
 
 #large-can:hover #fill {
     opacity: 1;
@@ -54,6 +53,7 @@ body {
 }
 
 
+/* Icon #2 */
 #bubbles {
     opacity: 0;
     transform: translateY(20px);
@@ -64,6 +64,7 @@ body {
     opacity: 1;
     transform: translateY(-10px);
 }
+
 #tab {
     transform-origin: center;
 }
@@ -72,6 +73,8 @@ body {
     transform: rotate(-35deg) translateY(-5px);
 }
 
+
+/* Icon #3 */
 #body-nut-can {
     transition: fill 0.3s ease;
 }
@@ -87,7 +90,7 @@ body {
 }
 
 #grey-can:hover #logo {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 #logo-name path {
@@ -97,3 +100,51 @@ body {
 #grey-can:hover #logo-name path {
     fill: #a22f22; 
 }
+
+
+/* Icon #4 */
+#nut {
+
+    transform-origin: bottom center;
+    transform-box: fill-box; 
+}
+
+#nut:hover {
+    
+    animation: wiggle 1.5s ease-in-out;
+}
+
+@keyframes wiggle {
+     0% {transform: rotate(0deg); }
+    20% { transform: rotate(12deg); }
+    40% { transform: rotate(-12deg); }
+    60% { transform: rotate(3deg); }
+    80% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+/* Icon #5 */
+#Head {
+    transform: translateY(200px); 
+    transition: transform 0.5s ease-in-out
+}
+
+#squirrel:hover #Head {
+    transform: translateY(0);
+}
+
+
+/* Icon #6 */
+#bottle:hover {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: pulse-bottle 1s ease-in-out infinite;
+}
+
+@keyframes pulse-bottle {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); } 
+    100% { transform: scale(1); }
+}
+
